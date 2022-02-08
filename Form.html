@@ -6,7 +6,7 @@
         <h2 name="h2Title">Signup Form</h2>
         <form>
             <!-- Input is a new tag introduced to these kind of work and its a self closing tag -->
-                
+                <!-- for label is used to indicate the label belongs to the element we give as input -->
                     <label name="lblFirstname" for=""inputEmail">First name</label>
                     <input type="text" name="inputFirstname"> 
                 
@@ -28,7 +28,7 @@
                 <!-- here by putting password in type area while the user give input the input will be in password format hidden under bullets -->
                 <div>
                     <label name="lblConfirmPassword" for="inputConfirmPassword">Confirm Password</label>
-                    <input type="ConfirmPassword" name="inputConfirmPassword">
+                    <input type="Password" name="inputConfirmPassword">
                 </div>
 
                 <div>
@@ -47,7 +47,7 @@
                 <!-- here by putting date in type area a calender appears for the user to set DOB -->
                 <div>
                     <label name="lbltxtAddress" for="inputtxtAddress">Address</label>
-                    <textarea name="txtAddress" id="txtAddress" cols="30" rows="10"></textarea>
+                    <textarea name="txtAddress" id="txtAddress" cols="20" rows="10"></textarea>
                 </div>
                 <!-- by adding address in label side you'll get it outside the box and text area is an element separately made for these kind of areas to create -->
                 <div>
@@ -72,6 +72,8 @@
                     <option value="8">Honduras</option> 
                     <option value="9">India</option> 
                </select>
+               <!-- value over here is just an unique id and also it arranges accordingly -->
+               <!-- here these countries list is just an example for understanding how html displays in real application we need to get the data from our server so no need to hardcode everything -->
                <div>
                 <input type="checkbox" name="inputterms"> <label for="Inputterms">Terms & Conditions</label>
             </div>
