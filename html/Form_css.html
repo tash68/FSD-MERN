@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Signup Form</title>
+      <link rel="stylesheet" href="Form_ex.css">
+        <style>
+            /* Internal css */
+            /* this  internal css is the part of html page but its't part of html element */
+/* this is Internal css using Id selector. to specify the id selector we used # symbol */
+            #h2Title{
+font-size: x-large;
+font-family: monospace;
+            }
+        </style>
+    </head>
+   
+    <body>
+        <!-- Inline css -->
+        <!-- this inline css is part of html element -->
+        <!-- this is the major prioritized css format -->
+        <h2 id="h2Title" style="color:black;" >Signup Form</h2>
+        <form>
+            
+                    <label class="mandatory_fields" name="lblFirstname" for=""inputEmail">First name</label>
+                    <input type="text" name="inputFirstname"> 
+        
+               
+                
+                    <label class="mandatory_fields" name="lblLastname" for="inputLastname">Last name</label>
+                    <input type="text" name="inputLastname">
+        </br>
+                
+    </br>
+                <div>
+                    <label class="mandatory_fields" name="lblEmail" for="inputEmail">Email</label>
+                    <input type="Email" name="inputEmail">
+                </div>
+                 </br>
+
+                <div>
+                    <label class="mandatory_fields" name="lblPassword" for="inputPassword">Password</label>
+                    <input type="Password" name="inputPassword">
+                </div>
+            </br>
+                
+                <div>
+                    <label class="mandatory_fields" name="lblConfirmPassword" for="inputConfirmPassword">Confirm Password</label>
+                    <input type="Password" name="inputConfirmPassword">
+                </div>
+                 </br>
+
+                <div>
+                    <input type="checkbox" name="inputShowPassword"> <label for="InputShowPassword">Show Password</label>
+                </div>
+            </br>
+                <div>
+                    <label class="mandatory_fields" name="lblPhoneNumber" for="inputPhoneNumber">Phone Number</label>
+                    <input type="number" name="inputPhoneNumber">
+                </div>
+               </br>
+
+                <div>
+                    <label class="mandatory_fields"  name="lblDateOfBirth" for="inputDateOfBirth">Date Of Birth</label>
+                    <input type="date" name="DateOfBirth">
+                </div>
+             </br>
+               
+                <div>
+                    <label class="mandatory_fields" name="lbltxtAddress" for="inputtxtAddress">Address</label>
+                    <textarea name="txtAddress" id="txtAddress" cols="20" rows="10"></textarea>
+                </div>
+                 </br>
+                
+                <div>
+                    <label class="mandatory_fields" for="inputGender">Gender</label>
+                    <input type="radio" name="gender"> <label>Male</label>
+                    <input type="radio" name="gender"> <label>Female</label>
+                    <input type="radio" name="gender"> <label>Other</label>
+                    <input type="radio" name="gender"> <label>Not specified</label>
+                </div>
+              </br>
+                
+                <label class="mandatory_fields" for="ddlCountry">Country</label>
+                
+                <select name="ddlCountry" id="ddlCountry">
+                    <option value="0">select</option> 
+                    <option value="1">Afghanistan</option> 
+                    <option value="2">Bangladesh</option> 
+                    <option value="3">Canada</option> 
+                    <option value="4">Denmark</option> 
+                    <option value="5">Egypt</option> 
+                    <option value="6">France</option> 
+                    <option value="7">Germany</option> 
+                    <option value="8">Honduras</option> 
+                    <option value="9">India</option> 
+               </select>
+              </br>
+            </br>
+              
+               <div>
+                <input type="checkbox" name="inputterms"> <label class="custom_based" for="Inputterms">Terms & Conditions</label>
+            </div>
+         </br>
+                <input type="Submit">
+        </form>
+    </body>
+</html>

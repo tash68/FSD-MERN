@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Signup Form</title>
+    </head>
+    <body>
+        <h2 name="h2Title">Signup Form</h2>
+        <form>
+            <!-- Input is a new tag introduced to these kind of work and its a self closing tag -->
+                <!-- for label is used to indicate the label belongs to the element we give as input -->
+                    <label name="lblFirstname" for=""inputEmail">First name</label>
+                    <input type="text" name="inputFirstname"> 
+        
+                <!-- here input tag is for the user to give input but the label tag is used to acknowledge the user what he must give as an input -->
+                
+                    <label name="lblLastname" for="inputLastname">Last name</label>
+                    <input type="text" name="inputLastname">
+        </br>
+                <!-- here we use text in type area coz name is just a text nothing specific about it -->
+    </br>
+                <div>
+                    <label name="lblEmail" for="inputEmail">Email</label>
+                    <input type="Email" name="inputEmail">
+                </div>
+                 </br>
+
+                <div>
+                    <label name="lblPassword" for="inputPassword">Password</label>
+                    <input type="Password" name="inputPassword">
+                </div>
+            </br>
+                <!-- here by putting password in type area while the user give input the input will be in password format hidden under bullets -->
+                <div>
+                    <label name="lblConfirmPassword" for="inputConfirmPassword">Confirm Password</label>
+                    <input type="Password" name="inputConfirmPassword">
+                </div>
+                 </br>
+
+                <div>
+                    <input type="checkbox" name="inputShowPassword"> <label for="InputShowPassword">Show Password</label>
+                </div>
+            </br>
+                <div>
+                    <label name="lblPhoneNumber" for="inputPhoneNumber">Phone Number</label>
+                    <input type="number" name="inputPhoneNumber">
+                </div>
+               </br>
+
+                <div>
+                    <label name="lblDateOfBirth" for="inputDateOfBirth">Date Of Birth</label>
+                    <input type="date" name="DateOfBirth">
+                </div>
+             </br>
+                <!-- here by putting date in type area a calender appears for the user to set DOB -->
+                <div>
+                    <label name="lbltxtAddress" for="inputtxtAddress">Address</label>
+                    <textarea name="txtAddress" id="txtAddress" cols="20" rows="10"></textarea>
+                </div>
+                 </br>
+                <!-- by adding address in label side you'll get it outside the box and text area is an element separately made for these kind of areas to create -->
+                <div>
+                    <label for="inputGender">Gender</label>
+                    <input type="radio" name="gender"> <label>Male</label>
+                    <input type="radio" name="gender"> <label>Female</label>
+                    <input type="radio" name="gender"> <label>Other</label>
+                    <input type="radio" name="gender"> <label>Not specified</label>
+                </div>
+              </br>
+                <!-- here we've given same names in name area so that's why user will only able to select only one option  -->
+                <label for="ddlCountry">Country</label>
+                <!-- here we are need dropdown tab so we are using select tag and for multiple options we need option tag here the instead of input we are taking ddl as attribute -->
+                <select name="ddlCountry" id="ddlCountry">
+                    <option value="0">select</option> 
+                    <option value="1">Afghanistan</option> 
+                    <option value="2">Bangladesh</option> 
+                    <option value="3">Canada</option> 
+                    <option value="4">Denmark</option> 
+                    <option value="5">Egypt</option> 
+                    <option value="6">France</option> 
+                    <option value="7">Germany</option> 
+                    <option value="8">Honduras</option> 
+                    <option value="9">India</option> 
+               </select>
+              </br>
+            </br>
+               <!-- value over here is just an unique id and also it arranges accordingly -->
+               <!-- here these countries list is just an example for understanding how html displays in real application we need to get the data from our server so no need to hardcode everything -->
+               <div>
+                <input type="checkbox" name="inputterms"> <label for="Inputterms">Terms & Conditions</label>
+            </div>
+         </br>
+                <input type="Submit">
+        </form>
+    </body>
+</html>

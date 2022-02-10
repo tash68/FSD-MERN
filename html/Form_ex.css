@@ -1,0 +1,24 @@
+
+/* <!-- Using Id selector --> */
+ /* here we can only apply css to the specified ones under id */
+#h2Title{
+    font-size: 50px;
+    font-family: monospace,'Courier New', Courier;
+    color: burlywood;
+}
+
+/* Using universal selector  */
+/* <!-- it is not so frequently used --> */
+/* <!-- here you can apply css for all the html elements --> */
+/* <!-- symbol used is * this is an unviersal selector indicator --> */
+*{
+    font-family: monospace ,'Courier New', Courier;
+}
+
+/* Using class selector */
+/* it is the most used css  */
+/* this is an custom selector which is customised with specific name only for few of elements forming under class */
+/* you can name the class after anything it is purley customised by your choice but the main thing is it always starts with (.) */
+.mandatory_fields{
+    font-weight: bold;
+}
