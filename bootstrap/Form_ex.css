@@ -1,0 +1,66 @@
+/* <!-- Using Id selector --> */
+ /* here we can only apply css to the specified ones under id */
+/* #h2Title{
+    font-size: 1000px;
+    font-family:cursive;
+    color: burlywood;
+    font-weight: bolder;
+} */
+
+/* padding is basically used for spacing */
+.css_box{
+    
+        background-color:beige;
+        border: 1px dashed lightskyblue;
+        border-bottom: 5px dashed black;
+        border-radius: 5px;
+        border-color: cadetblue;
+        padding: 10px;
+        padding-left: 10px;
+        margin: 20px;
+        padding : 10px , 5px , 10px, 5px;
+        margin : 10px , 5px , 10px, 5px;
+        /* top right bottom left  */
+        margin : 20px, 10px;
+        /* TopBottom LeftRight */
+}
+
+/* Using universal selector  */
+/* <!-- it is not so frequently used --> */
+/* <!-- here you can apply css for all the html elements --> */
+/* <!-- symbol used is * this is an unviersal selector indicator --> */
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Using class selector */
+/* it is the most used css  */
+/* this is an custom selector which is customised with specific name only for few of elements forming under class */
+/* you can name the class after anything it is purley customised by your choice but the main thing is it always starts with (.) */
+.mandatory_fields{
+    font-weight: bold;
+}
+.container{
+    background-color:cadetblue
+}
+.title{
+    background-color:bisque
+}
+.header{
+    height: 200px;
+    /* if we dont want the image to repeat then we can use background repeat attribute */
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7ztmxqULsNnTzXaRi9c6KoJp7whgB21p5g&usqp=CAU");
+    font-size:x-large;
+    font-style:inherit;
+    font-weight:bolder;
+    font-display: swap ;
+    font-family:cursive;
+    color:lavender;
+    
+    
+}
+
+/* In id selector we cannot use for multiple elements we can only use for one element  
+ but in class selector we can use same class for multiple elements */
