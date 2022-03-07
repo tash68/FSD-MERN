@@ -1,0 +1,20 @@
+.border{
+    border: 1px solid lightblue;
+}
+
+.bg-dark{
+    background-color: darkslategrey !important;
+}
+
+.btn{
+    font-weight: bolder;
+}
+
+.btn-success{
+    background-color: rgb(0, 0, 0);
+}
+
+.card-btn{
+    background-color: black;
+}
+
