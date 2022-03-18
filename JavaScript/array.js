@@ -29,3 +29,21 @@ console.log(arrayofnum);
 
 console.log(arrayofnum.length);
 // this was to get the size of the array 
+
+const subArray = arrayofnum.slice(1,3);
+console.log(subArray);
+// to get any part of an array 
+
+const result = arrayofnum.findIndex(e=> e==19);
+console.log(result);
+// finding an element in array based on condition 
+// the condition is a lamda expression  is the element 
+// using finding findIndex we can also find the respective index value
+
+const numGreaterThan60 = arrayofnum.find(e=> e>60);
+console.log(numGreaterThan60);
+// finding multiple elements in array based on a condition 
+
+const numsGreaterThan70 = arrayofnum.filter(e=> e>70);
+console.log(numsGreaterThan70)
+// filter can provide you multiple elemets or an array of elements unlike find opt
